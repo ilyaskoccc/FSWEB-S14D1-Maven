@@ -36,6 +36,15 @@ public class Employee {
     }
 
     public void work() {
-        System.out.println("Employee starts to working");
+        System.out.println(getName() + " starts to working");
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }

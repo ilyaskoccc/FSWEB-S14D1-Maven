@@ -7,6 +7,6 @@ public class MidDeveloper extends Employee {
 
     @Override
     public void work() {
-        System.out.println("MidDeveloper starts to working");
+        System.out.println(getName() + " starts to working");
     }
 }
